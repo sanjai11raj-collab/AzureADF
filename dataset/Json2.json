@@ -1,0 +1,23 @@
+{
+	"name": "Json2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Bloblearn",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "empty.json",
+				"folderPath": "monitor",
+				"container": "source"
+			}
+		},
+		"schema": {
+			"type": "object"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

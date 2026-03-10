@@ -1,0 +1,9 @@
+{
+	"name": "sanadflearn",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ba80b0db-556e-4cc8-bc97-cef4866333c4",
+		"tenantId": "908787f7-038c-453e-b6cd-706785eca8d6"
+	}
+}
